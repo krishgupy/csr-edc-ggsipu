@@ -4,7 +4,7 @@ const ThreeImageSection = () => {
   return (
     <>
       {/* Section Title */}
-      <div className="font-poppins font-bold text-3xl sm:text-4xl md:text-5xl flex justify-center my-6 text-white">
+      <div className="font-poppins select-none font-bold text-3xl sm:text-4xl md:text-5xl flex justify-center my-6 text-white">
         About Us
       </div>
 
@@ -12,13 +12,13 @@ const ThreeImageSection = () => {
       <section id="three-image-section" className="bg-custom-color mx-4 sm:mx-8 rounded-lg py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Heading */}
-          <h2 className="font-poppins text-3xl sm:text-4xl md:text-5xl font-bold text-center text-gray-800 mb-8 sm:mb-12">
+          <h2 className="font-poppins text-3xl select-none sm:text-4xl md:text-5xl font-bold text-center text-gray-800 mb-8 sm:mb-12">
             Welcome to CSR Club EDC
           </h2>
 
           {/* Paragraph */}
           <div className="flex justify-center">
-            <p className="font-poppins font-bold text-base sm:text-lg text-gray-700 text-center max-w-3xl mb-8">
+            <p className="font-poppins select-none font-bold text-base sm:text-lg text-gray-700 text-center max-w-3xl mb-8">
               The Corporate Social Responsibility (CSR) Club comes under the umbrella of Srijan with the
               objective of promoting citizenship values vital for sustainable development among the students
               of the University. Students can take initiatives in teaching wards of housekeeping staff, guards
@@ -32,8 +32,8 @@ const ThreeImageSection = () => {
           <div className="flex flex-col lg:flex-row justify-center gap-8 sm:gap-12 lg:gap-20">
             {/* Mission Card */}
             <div className="bg-box-color p-6 sm:p-8 rounded-2xl shadow-lg w-full lg:w-1/3">
-              <h3 className="font-poppins text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-6 underline underline-offset-2">Our Mission</h3>
-              <p className="font-poppins text-base sm:text-lg text-gray-600">
+              <h3 className="font-poppins text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800  select-none mb-6 underline underline-offset-2">Our Mission</h3>
+              <p className=" select-none font-poppins text-base sm:text-lg text-gray-600">
                 Our mission is to cultivate a sense of responsibility towards the environment
                 among our members and the larger community. We aim to collaborate with
                 environmental organizations, engage in research, and work on initiatives that
@@ -54,8 +54,8 @@ const ThreeImageSection = () => {
                   className="w-full h-full object-cover rounded-lg"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center p-4 rounded-lg">
-                  <p className="font-poppins text-white text-xl sm:text-2xl font-bold mb-4">Sustainability</p>
-                  <p className="font-poppins text-white text-sm sm:text-lg text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <p className="font-poppins text-white select-none text-xl sm:text-2xl font-bold mb-4">Sustainability</p>
+                  <p className="font-poppins text-white select-none text-sm sm:text-lg text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     We are committed to promoting sustainable practices and reducing our
                     environmental footprint.
                   </p>
@@ -70,8 +70,8 @@ const ThreeImageSection = () => {
                   className="w-full h-full object-cover rounded-lg"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center p-4 rounded-lg">
-                  <p className="font-poppins text-white text-xl sm:text-2xl font-bold mb-4">Community</p>
-                  <p className="font-poppins text-white text-sm sm:text-lg text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <p className="font-poppins text-white select-none text-xl sm:text-2xl font-bold mb-4">Community</p>
+                  <p className="font-poppins text-white select-none text-sm sm:text-lg text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     We strive to build a strong community that works together for a better
                     future.
                   </p>
@@ -86,8 +86,8 @@ const ThreeImageSection = () => {
                   className="w-full h-full object-cover rounded-lg"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center p-4 rounded-lg">
-                  <p className="font-poppins text-white text-xl sm:text-2xl font-bold mb-4">Innovation</p>
-                  <p className="font-poppins text-white text-sm sm:text-lg text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <p className="font-poppins text-white text-xl select-none sm:text-2xl font-bold mb-4">Innovation</p>
+                  <p className="font-poppins text-white text-sm select-none sm:text-lg text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                     We encourage innovative solutions to tackle environmental challenges.
                   </p>
                 </div>
